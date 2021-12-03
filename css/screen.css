@@ -1,0 +1,68 @@
+table{
+	width:1000px; height:500px; border:3px solid yellow; background-color: cornflowerblue; margin: auto auto; 
+}
+table table{
+	background-color: yellow; height: 400px; width:800px;border:3px solid black;
+}
+body{
+	background-color: burlywood
+}
+th{
+	width: 200px; height:100px; bgcolor:red; border: 3px solid yellow; text-align: center; font-size: 20px;
+}
+td{ 
+	border: 1px solid black; text-align: center;
+}
+a{
+	background-color: orangered;
+	border: none;
+	color: white;
+	padding: 18px 34px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	font-size: 18px;
+	margin: 4px 2px;
+	-webkit-transition-duration: 0.4s; 
+	transition-duration: 0.4s;
+	cursor: pointer;
+}
+h3{ 
+	color: black;font:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif""Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+h1{
+	background-color: red;
+}
+
+a:hover{
+	background-color: yellow;
+	color:black;
+}
+a:active{
+	background-color:crimson;
+	color:white;
+}
+img{
+	align:center; width:300px; height:370px;
+}
+fieldset { 
+  display: block;
+  margin-left: 2px;
+  margin-right: 2px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 1px;
+  padding-right: 1px;
+  border: 1px groove ;
+ tab-size: 10
+}
+input{
+	margin: 5px; color: black; background-color: red;
+}
+textarea{
+	background-color: red; color: black; align-self: center;
+}
+p{
+	color: chocolate;
+	background-color: black;
+}
